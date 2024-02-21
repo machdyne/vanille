@@ -6,6 +6,12 @@ Vanille is an FPGA computer designed by Lone Dynamics Corporation.
 
 This repo will contain schematics, PCB layouts, pinouts, a 3D-printable case, example gateware and documentation.
 
-Note: The V0 PCB is currently untested and may contain bugs.
-
 Find more information on the [Vanille product page](https://machdyne.com/product/vanille-computer/).
+
+## Board Revisions
+
+| Revision | Notes |
+| -------- | ----- |
+| V0 | Initial prototype |
+| V1 | Initial production version; fixes SRAM; adds LED |
+
