@@ -75,7 +75,6 @@ Please follow the setup instructions in the [linux-on-litex-vexriscv](https://gi
 ```
 $ cd linux-on-litex-vexriscv
 $ ./make.py --board=minze --dcache-size=64 --icache-size=64 --build
-
 ```
 
 NOTE: This may fail, if so:
