@@ -74,7 +74,7 @@ Please follow the setup instructions in the [linux-on-litex-vexriscv](https://gi
 
 ```
 $ cd linux-on-litex-vexriscv
-$ ./make.py --board=minze --dcache-size=64 --icache-size=64 --build
+$ ./make.py --board=vanille --dcache-size=64 --icache-size=64 --build
 ```
 
 NOTE: This may fail, if so:
@@ -101,7 +101,7 @@ $ bash build_vanille.sh
 $ sudo dfu-util -a 0 -D vanille.bit
 ```
 
-3. Copy the device tree binary `../minze.dtb` to a FAT-formatted MicroSD card.
+3. Copy the device tree binary `../vanille.dtb` to a FAT-formatted MicroSD card.
 
 ## JTAG Header
 
